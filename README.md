@@ -6,4 +6,4 @@ The first document GDP, the data is cleaned then the visualization is done to ge
 - This makes the operation faster - they are ordered in transaction tables made up of dimensions that are static tables
 ### Other contexts covered
 - Merge cells, creating index column, create a column, merge cells
-- 
+- Cardinality data and how to choose based on the data which one suits the project 

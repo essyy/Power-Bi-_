@@ -25,4 +25,8 @@ in visualization when creating slicers, the filter pane after the visualizations
 * Top N - top values
   - how to change the slicer - horizontal 
 - Removing interactions between the visualization, highlight or filter
-- Syncing the slicers in different pages-- use the sync slicers section to enable both pages to have th filter activated
+- ### Syncing the slicers in different pages-- use the sync slicers section to enable both pages to have th filter activated
+- The advanced filter enables the settings to be adapted immediately for syncronisation 
+- ### Drill down enables one to zoom within the regions
+- Expand all down enables the data to be narrown b etter than drill
+- #### Drill through - 

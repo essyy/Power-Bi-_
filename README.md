@@ -35,5 +35,15 @@ in visualization when creating slicers, the filter pane after the visualizations
 - Decomposition tree -- determine the aggregation data used -- help the user to analyse that data easier
 - Matrix table - enables the visuals to be more in depth and informative
 - In the editing of the dashboards, deselect the sync slicers
-- Use of buttons for animations
-- 
+- Use of buttons for animations using action and tootip for a hover on the animation
+- ###### in a button, when one chooses bookmark, you can create  a custom button
+- ###### To do this, you need to use bookmark and select. The bookmark, you can update it
+- line graphs -- if you have two lines, you can use teh secondary value to enable both to be demonstrated
+- ![image](https://github.com/user-attachments/assets/e5f90950-b83f-44c7-a2c3-f125c830e9c3)
+- using line graphs you can also have the analytica and forecast wich is a prediction
+- ## Use of R
+- the code is:
+iris_id <- iris (# 1. Convert iris to a data.table)
+iris_id <- setDt(iris_id, keep.rownames= TRUE)[] ( Keep rownames (optional)
+setnames(iris_id, 1,"id")  ( Rename the first column to "id")
+iris_id$id <- as.integer(iris_id$id)  (Convert the "id" column to integer (if necessary)

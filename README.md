@@ -29,4 +29,11 @@ in visualization when creating slicers, the filter pane after the visualizations
 - The advanced filter enables the settings to be adapted immediately for syncronisation 
 - ### Drill down enables one to zoom within the regions
 - Expand all down enables the data to be narrown b etter than drill
-- #### Drill through - 
+- #### Drill through -
+- ##### treemap - Tree Maps are primarily used to display data that is grouped and nested in a hierarchical (or tree-based) structure. 
+- The use of edit interaction determines whether the two tables will have a relation/connection to them
+- Decomposition tree -- determine the aggregation data used -- help the user to analyse that data easier
+- Matrix table - enables the visuals to be more in depth and informative
+- In the editing of the dashboards, deselect the sync slicers
+- Use of buttons for animations
+- 

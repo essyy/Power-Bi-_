@@ -53,3 +53,5 @@ iris_id$id <- as.integer(iris_id$id)  (Convert the "id" column to integer (if ne
 - ![image](https://github.com/user-attachments/assets/732a95a2-461c-4851-9f44-f85aa1db3c37)
 library(ggplot2)
 ggplot(data=dataset,aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_point() + geom_smooth() + theme_minimal()
+--##### use of Q&A IN THE r scripts
+  ![image](https://github.com/user-attachments/assets/58ffc1ad-8d02-4ac1-9e94-f95d5f3a249d)

@@ -47,3 +47,9 @@ iris_id <- iris (# 1. Convert iris to a data.table)
 iris_id <- setDt(iris_id, keep.rownames= TRUE)[] ( Keep rownames (optional)
 setnames(iris_id, 1,"id")  ( Rename the first column to "id")
 iris_id$id <- as.integer(iris_id$id)  (Convert the "id" column to integer (if necessary)
+* Introduction of gg plot to plot the graph
+* ![image](https://github.com/user-attachments/assets/ac00da09-c3b9-425e-bc79-55a019b7caa5)
+- use of the second code
+- ![image](https://github.com/user-attachments/assets/732a95a2-461c-4851-9f44-f85aa1db3c37)
+library(ggplot2)
+ggplot(data=dataset,aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_point() + geom_smooth() + theme_minimal()

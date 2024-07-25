@@ -62,3 +62,5 @@ ggplot(data=dataset,aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_po
 - measure and column diff is the measure is a virtual column
 - CALENDARAUTO - i is used in determining the automated dates that may be missing based on the dataset
 - DAX LANGUAGE to carry out functions such as SUM, COUNT, COUNTROWS, COUNTBLANK, DISTINCTCOUNT, COUNTA, CONTX, COUNTAX
+- COUNTA deals with boolean
+- 

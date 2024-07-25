@@ -55,3 +55,7 @@ library(ggplot2)
 ggplot(data=dataset,aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_point() + geom_smooth() + theme_minimal()
 --##### use of Q&A IN THE r scripts
   ![image](https://github.com/user-attachments/assets/58ffc1ad-8d02-4ac1-9e94-f95d5f3a249d)
+### python for Bi 
+- Use of plt.plot (datasets needed then , 'go' -- this returns Os the g-- gives lines as output
+- statistical analysis, violin chart is used via the seaborn package
+- ![image](https://github.com/user-attachments/assets/ac1ac34d-a6e7-4f95-8b97-67b90e3f0437)

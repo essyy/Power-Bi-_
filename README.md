@@ -44,7 +44,7 @@ in visualization when creating slicers, the filter pane after the visualizations
 - ## Use of R
 - the code is:
 iris_id <- iris (# 1. Convert iris to a data.table)
-iris_id <- setDt(iris_id, keep.rownames= TRUE)[] ( Keep rownames (optional)
+iris_id <- setDt(iris_id, keep.rownames= TRUE)[] ( Keep row names (optional)
 setnames(iris_id, 1,"id")  ( Rename the first column to "id")
 iris_id$id <- as.integer(iris_id$id)  (Convert the "id" column to integer (if necessary)
 * Introduction of gg plot to plot the graph
@@ -56,6 +56,9 @@ ggplot(data=dataset,aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_po
 --##### use of Q&A IN THE r scripts
   ![image](https://github.com/user-attachments/assets/58ffc1ad-8d02-4ac1-9e94-f95d5f3a249d)
 ### python for Bi 
-- Use of plt.plot (datasets needed then , 'go' -- this returns Os the g-- gives lines as output
+- Use of plt.plot (datasets needed then, 'go' -- this returns Os the g-- gives lines as output
 - statistical analysis, violin chart is used via the seaborn package
 - ![image](https://github.com/user-attachments/assets/ac1ac34d-a6e7-4f95-8b97-67b90e3f0437)
+- measure and column diff is the measure is a virtual column
+- CALENDARAUTO - i is used in determining the automated dates that may be missing based on the dataset
+- DAX LANGUAGE to carry out functions such as SUM, COUNT, COUNTROWS, COUNTBLANK, DISTINCTCOUNT, COUNTA, CONTX, COUNTAX

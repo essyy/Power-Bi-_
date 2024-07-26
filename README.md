@@ -64,3 +64,22 @@ ggplot(data=dataset,aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_po
 - DAX LANGUAGE to carry out functions such as SUM, COUNT, COUNTROWS, COUNTBLANK, DISTINCTCOUNT, COUNTA, CONTX, COUNTAX
 - COUNTA deals with boolean
 - 
+##### Cloud Gateway 
+- to enable constant refreshing opf the published reports, there is need for a gateway
+- The steps include: downloading the gateway and connect the Power Bi cloud acount
+- In the data source credentials, ensure all is done including signing in
+- Get quick installs - creates a summary of the report/dataset
+- Creating a dashboard is done via pinning the page or the image
+- Workspaces are used to collaborate with other users
+- ###### use of mobile layout
+- ##### Row level security
+- ![image](https://github.com/user-attachments/assets/e4f10c4a-0c66-491b-8968-07d4d1907ba2)
+- this enables filtering so that one person can only view what is relevant to tehm
+- to do this effectively, it is necessary to ensure there is a both way connection in the table
+- use of dynamic  row level security to share a diff visualization based on the email address
+- this is done by establishing a security table
+- Heirarchical table
+- ![image](https://github.com/user-attachments/assets/f0e3aa85-7947-4459-a718-542398ca14a7)
+
+- How to convert a json table to a detailed table
+- 
